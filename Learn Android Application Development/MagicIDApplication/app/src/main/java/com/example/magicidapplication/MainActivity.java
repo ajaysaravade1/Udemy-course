@@ -28,11 +28,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String idNumber = etID.getText().toString().trim();
+
                 String dob = idNumber.substring(0,6);
+
                 int gender = Integer.parseInt(Character.toString(idNumber.charAt(6)));
+
                 String sGender;
-                if(gender < 5){
-                    sGender= "Female";
+
+                if(gender < 5) {
+                    sGender = "Female";
                 }
                 else{
                     sGender= "Male";
