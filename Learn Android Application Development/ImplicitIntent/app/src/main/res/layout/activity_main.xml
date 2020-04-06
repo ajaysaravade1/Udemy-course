@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="170dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="#FE2"
+        android:text="Call"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/call_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="#FE2"
+        android:text="Call Friend"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="#FE2"
+        android:layout_marginBottom="20dp"
+        android:text="Open Web"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="#FE2"
+        android:layout_marginBottom="20dp"
+        android:text="Open Map"
+        android:textSize="25dp" />
+
+</LinearLayout>
